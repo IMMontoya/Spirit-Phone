@@ -134,7 +134,9 @@ void loop() {
     Serial.println(currentMode == BellMode ? "BellMode" : "RadioMode");
     Serial.print("Sensor Value: ");
     Serial.println(readSensorValue());
-    int randomSeconds = random(RING_INVERVAL.min, RING_INVERVAL.max); // Generate a random delay
+
+    // Generate a random interval between rings
+    int randomSeconds = random(RING_INVERVAL.min, RING_INVERVAL.max);
     
     // Convert seconds to deciseconds, wait, and proceed based on the return value
     if (Wait_Decisecond(randomSeconds * 10)) { // If true, the wait was completed without interruption. Ring the Bell

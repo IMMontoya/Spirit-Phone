@@ -1,3 +1,10 @@
+# Initial ignore list for the Spirit Phone project
 /._spirit_phone.ino
 /.vscode
+
+# Untouched file from last test
 /spirit_phone.ino
+
+# All Mac hidden files
+._*
+
