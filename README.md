@@ -2,6 +2,7 @@
 
 ## Table of Contents
 
+- [Script](/spirit_phone_published.ino)
 - [Overview](#overview)
 - [Skills Demonstrated](#skills-demonstrated)
 - [The Sculpture](#the-sculpture)
