@@ -1,5 +1,13 @@
 # Arduino Embedded Project - Spirit Phone
 
+## Table of Contents
+
+- [Overview](#overview)
+- [Skills Demonstrated](#skills-demonstrated)
+- [The Sculpture](#the-sculpture)
+- [Components](#components)
+- [Circuit Diagram](#circuit-diagram)
+
 ## Overview
 
 This project showcases an embedded system using Arduino, which integrates hardware components to perform specific tasks for an Art sculpture in collaboration with [Regan Henley](https://www.reganhenley.com/). Specifically, the system reads sensor data to determine if the phone is on or off the hook. If the phone is off the hook, the microcontroller triggers a relay to power an AM/FM radio that plays through a speaker in the listening piece. If the phone is on the hook, the radio is turned off and the microcontroller triggers a relay to power a bell trembler. The bell ring pattern is defined by the ThreeRingBell function. The interval between rings is randomly generated between a set minimum and maximum number of seconds.
